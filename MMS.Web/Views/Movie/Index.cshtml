@@ -1,0 +1,51 @@
+@model IList<Movie>
+
+<partial name="_Breadcrumbs"  model=@(new [] {
+    ("/", "Home"), ("/movie", "Movies"), ("/", ""), ("", "Index")
+})>
+
+<div class="card shadow">
+    <div class="card-header bg-success">
+        <h2 class="mb-2" style="color:whitesmoke">Movies</h2>
+    </div>
+
+    <div class="row-3 p-2">
+        <a class="btn btn-success my-3" asp-controller="Movie" 
+        asp-action="Create">Create</a>
+    </div>
+
+
+    <table class="table">
+        <thead>
+            <tr style="color: green;">
+                <th>#</th>
+                <th>Title</th>
+                <th>Director</th>
+                <th>Year</th>
+                <th>Genre</th>
+                <th>Budget ($)</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var m in Model)
+            {
+                <tr>
+                    <td>@m.Id</td>
+                    <td>@m.Title</td>
+                    <td>@m.Director</td>
+                    <td>@m.Year</td>
+                    <td>@m.Genre</td>
+                    <td>@m.Budget</td>
+                    <td>
+                        <a class="btn-sm btn-success" asp-action="Edit" asp-route-id=@m.Id><i class="bi bi-pencil-square mr-1"></i>Edit</a>
+
+                        <a class="btn-sm btn-secondary" asp-action="Details" asp-route-id=@m.Id><i class="bi bi-list mr-1"></i>Details</a>
+
+                        <a class="btn-sm btn-danger" asp-action="Delete" asp-route-id=@m.Id><i class="bi bi-trash mr-1"></i>Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

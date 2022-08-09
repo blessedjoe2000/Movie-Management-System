@@ -1,0 +1,42 @@
+@model Movie
+
+<partial name="_Breadcrumbs"  model=@(new [] {
+    ("/", "Home"), ("/movie", "Movies"), ("/", ""), ("", "Details")
+})>
+
+<div class="card-header bg-success">
+    <h2 class="mb-2" style="color:whitesmoke">Movies</h2>
+</div>
+
+<h3 class="mt-4 mb-4">Details</h3>
+
+<div class="card shadow round p-2 ">
+
+    <div class="row p-3">
+        @* //using movie details partial *@
+        <partial name="_MovieDetails"/>
+
+        <div class="col-4">
+            <img src="@Model.PosterUrl" class="img-fluid">
+
+            <div class="form-group mt-3">
+                <a class="btn btn-success" asp-action="Edit" asp-route-id="@Model.Id">Edit Movie</a>
+                <a class="btn btn-secondary" asp-action="Index">Back to list</a>
+                <button data-toggle="modal" data-target="#deleteModal" class="btn btn-danger">Delete Movie</button>
+            </div>
+
+        </div>
+    </div>
+
+    @* using review partial *@
+    <div class="row p-2">
+        <partial name="_Reviews" />
+    </div>
+
+    <div class="row-3 mb-2 ml-2">
+        <a asp-action="CreateReview" asp-route-id="@Model.Id" class="btn btn-warning">Add Review</a>
+    </div>
+   
+</div>
+
+<partial name="_DeleteModal"/>

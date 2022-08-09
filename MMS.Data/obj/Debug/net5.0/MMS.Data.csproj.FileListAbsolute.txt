@@ -1,0 +1,24 @@
+C:\Users\UGIAGBE JOSEPH\Documents\COM741-Assignment.MMS\MMS\MMS.Data\bin\Debug\net5.0\MMS.Data.deps.json
+C:\Users\UGIAGBE JOSEPH\Documents\COM741-Assignment.MMS\MMS\MMS.Data\bin\Debug\net5.0\MMS.Data.dll
+C:\Users\UGIAGBE JOSEPH\Documents\COM741-Assignment.MMS\MMS\MMS.Data\bin\Debug\net5.0\ref\MMS.Data.dll
+C:\Users\UGIAGBE JOSEPH\Documents\COM741-Assignment.MMS\MMS\MMS.Data\bin\Debug\net5.0\MMS.Data.pdb
+C:\Users\UGIAGBE JOSEPH\Documents\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UGIAGBE JOSEPH\Documents\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.AssemblyInfoInputs.cache
+C:\Users\UGIAGBE JOSEPH\Documents\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.AssemblyInfo.cs
+C:\Users\UGIAGBE JOSEPH\Documents\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.csproj.CoreCompileInputs.cache
+C:\Users\UGIAGBE JOSEPH\Documents\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.dll
+C:\Users\UGIAGBE JOSEPH\Documents\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\ref\MMS.Data.dll
+C:\Users\UGIAGBE JOSEPH\Documents\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.pdb
+C:\Users\UGIAGBE JOSEPH\Documents\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.csproj.AssemblyReference.cache
+C:\Users\UGIAGBE JOSEPH\Documents\School Stuff\COM741-Assignment.MMS\MMS\MMS.Data\bin\Debug\net5.0\MMS.Data.deps.json
+C:\Users\UGIAGBE JOSEPH\Documents\School Stuff\COM741-Assignment.MMS\MMS\MMS.Data\bin\Debug\net5.0\MMS.Data.dll
+C:\Users\UGIAGBE JOSEPH\Documents\School Stuff\COM741-Assignment.MMS\MMS\MMS.Data\bin\Debug\net5.0\ref\MMS.Data.dll
+C:\Users\UGIAGBE JOSEPH\Documents\School Stuff\COM741-Assignment.MMS\MMS\MMS.Data\bin\Debug\net5.0\MMS.Data.pdb
+C:\Users\UGIAGBE JOSEPH\Documents\School Stuff\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.csproj.AssemblyReference.cache
+C:\Users\UGIAGBE JOSEPH\Documents\School Stuff\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UGIAGBE JOSEPH\Documents\School Stuff\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.AssemblyInfoInputs.cache
+C:\Users\UGIAGBE JOSEPH\Documents\School Stuff\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.AssemblyInfo.cs
+C:\Users\UGIAGBE JOSEPH\Documents\School Stuff\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.csproj.CoreCompileInputs.cache
+C:\Users\UGIAGBE JOSEPH\Documents\School Stuff\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.dll
+C:\Users\UGIAGBE JOSEPH\Documents\School Stuff\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\ref\MMS.Data.dll
+C:\Users\UGIAGBE JOSEPH\Documents\School Stuff\COM741-Assignment.MMS\MMS\MMS.Data\obj\Debug\net5.0\MMS.Data.pdb

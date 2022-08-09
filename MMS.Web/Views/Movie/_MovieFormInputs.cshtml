@@ -1,0 +1,60 @@
+@model Movie
+
+<div class="foam-group">
+    <label asp-for="Title" class="control-label"></label>
+    <input asp-for="Title" class="form-control"/>
+    <span asp-validation-for="Title" class="text-danger"></span>
+</div>
+
+<div class="form-group">
+    <label asp-for="Director" class="control-label"></label>
+    <input asp-for="Director" class="form-control"/>
+    <span asp-validation-for="Director" class="text-danger"></span>
+</div>
+
+<div class="row">
+    <div class="form-group col-3">
+        <label asp-for="Year" class="control-label"></label>
+        <input asp-for="Year" class="form-control"/>
+        <span asp-validation-for="Year" class="text-danger"></span>
+    </div>
+
+    <div class="form-group col-3">
+        <label asp-for="Budget" class="control-label"></label>
+        <input asp-for="Budget" class="form-control"/>
+        <span asp-validation-for="Budget" class="text-danger"></span>
+    </div>
+
+    <div class="form-group col-3">
+        <label asp-for="Duration" class="control-label"></label>
+        <input asp-for="Duration" class="form-control"/>
+        <span asp-validation-for="Duration" class="text-danger"></span>
+    </div>
+
+    <div class="form-group col-3">
+        <label asp-for="Genre" class="control-label"></label>
+        <select asp-for="Genre" asp-items="Html.GetEnumSelectList<Genre>()" class="form-control">
+            <option>Select Genre</option>
+        </select>
+        <span asp-validation-for="Genre" class="text-danger"></span>
+    </div>
+
+</div>
+
+<div class="foam-group">
+    <label asp-for="Cast" class="control-label"></label>
+    <input asp-for="Cast" class="form-control"/>
+    <span asp-validation-for="Cast" class="text-danger"></span>
+</div>
+
+<div class="foam-group">
+    <label asp-for="PosterUrl" class="control-label"></label>
+    <input type="url" asp-for="PosterUrl" class="form-control"/>
+    <span asp-validation-for="PosterUrl" class="text-danger"></span>
+</div>
+
+<div class="foam-group">
+    <label asp-for="Plot" class="control-label"></label>
+    <textarea rows="10" asp-for="Plot" class="form-control"></textarea>
+    <span asp-validation-for="Plot" class="text-danger"></span>
+</div>
